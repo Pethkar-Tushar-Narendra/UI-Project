@@ -32,3 +32,129 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+.section2-container .dishes-container {
+  /* border: 1px solid red; */
+  width: 100%;
+  height: calc(100% - 5rem);
+  padding: 16px;
+  grid-template-columns: 200%;
+  grid-template-rows: 49% 49%;
+  overflow-x: auto;
+  gap: 2rem;
+}
+.section2-container .dishes-container .row1 {
+  height: 50%;
+  width: 180%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  padding: 0 10rem;
+}
+.section2-container .dishes-container .row1 .dish1,
+.section2-container .dishes-container .row1 .dish2,
+.section2-container .dishes-container .row1 .dish3,
+.section2-container .dishes-container .row1 .dish4,
+.section2-container .dishes-container .row1 .dish5,
+.section2-container .dishes-container .row1 .dish6 {
+  /* border: 1px solid red; */
+  width: 20rem;
+  height: 90%;
+}
+.section2-container .dishes-container .row1 .dish1 {
+  background-image: url('../../../Images/DishesImage/burger.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.section2-container .dishes-container .row1 .dish2 {
+  background-image: url('../../../Images/DishesImage/dhokla.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section2-container .dishes-container .row1 .dish3 {
+  background-image: url('../../../Images/DishesImage/food.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section2-container .dishes-container .row1 .dish4 {
+  background-image: url('../../../Images/DishesImage/lasania.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section2-container .dishes-container .row1 .dish5 {
+  background-image: url('../../../Images/DishesImage/pizza.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section2-container .dishes-container .row1 .dish6 {
+  background-image: url('../../../Images/DishesImage/potato.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section2-container .dishes-container .row2 {
+  height: 50%;
+  width: 180%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  padding: 0 3rem;
+}
+.section2-container .dishes-container .row2 .dish1,
+.section2-container .dishes-container .row2 .dish2,
+.section2-container .dishes-container .row2 .dish3,
+.section2-container .dishes-container .row2 .dish4,
+.section2-container .dishes-container .row2 .dish5,
+.section2-container .dishes-container .row2 .dish6,
+.section2-container .dishes-container .row2 .dish7 {
+  width: 20rem;
+  height: 90%;
+}
+.section2-container .dishes-container .row2 .dish1 {
+  background-image: url('../../../Images/DishesImage/burger.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.section2-container .dishes-container .row2 .dish2 {
+  background-image: url('../../../Images/DishesImage/burger.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.section2-container .dishes-container .row2 .dish3 {
+  background-image: url('../../../Images/DishesImage/dhokla.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section2-container .dishes-container .row2 .dish4 {
+  background-image: url('../../../Images/DishesImage/food.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section2-container .dishes-container .row2 .dish5 {
+  background-image: url('../../../Images/DishesImage/lasania.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section2-container .dishes-container .row2 .dish6 {
+  background-image: url('../../../Images/DishesImage/pizza.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section2-container .dishes-container .row2 .dish7 {
+  background-image: url('../../../Images/DishesImage/potato.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
